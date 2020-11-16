@@ -29,12 +29,14 @@ html(lang='en')
         nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
             .container
                 a.navbar-brand.js-scroll-trigger(href='#page-top')
-                    <h4>MZ Branding</h4>
+                    <h4>MikeZlot.com</h4>
                 button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars.ml-1
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.text-uppercase.ml-auto
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#team') About
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#services') Services
                         li.nav-item
@@ -42,16 +44,60 @@ html(lang='en')
                         //- li.nav-item
                         //-     a.nav-link.js-scroll-trigger(href='#about') About
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#team') Team
-                        li.nav-item
                             a.nav-link.js-scroll-trigger(href='#contact') Contact
         // Masthead
         header.masthead
             .container
-                .masthead-subheading Welcome To Our Studio!
+                img(src='assets/img/mikezlotmoonlogo.png', alt='', width='auto', height='500px') 
+                p(padding="35px")
+                .masthead-subheading Creative Solutions For The Things That Matter
                 .masthead-heading.text-uppercase It's Nice To Meet You
-                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger(href='#services') Tell Me More
+                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger(href='#team') Tell Me More
 
+        // Team
+        section#team.page-section.bg-light
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Our Amazing Team
+                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                .row
+                    //- .col-lg-4
+                    //-     .team-member
+                    //-         img.mx-auto.rounded-circle(src='assets/img/team/1.jpg', alt='')
+                    //-         h4 Kay Garland
+                    //-         p.text-muted Lead Designer
+                    //-         a.btn.btn-dark.btn-social.mx-2(href='#!')
+                    //-             i.fab.fa-twitter
+                    //-         a.btn.btn-dark.btn-social.mx-2(href='#!')
+                    //-             i.fab.fa-facebook-f
+                    //-         a.btn.btn-dark.btn-social.mx-2(href='#!')
+                    //-             i.fab.fa-linkedin-in
+                    //- .col-lg-4
+                    //-     .team-member
+                    //-         img.mx-auto.rounded-circle(src='assets/img/team/2.jpg', alt='')
+                    //-         h4 Larry Parker
+                    //-         p.text-muted Lead Marketer
+                    //-         a.btn.btn-dark.btn-social.mx-2(href='#!')
+                    //-             i.fab.fa-twitter
+                    //-         a.btn.btn-dark.btn-social.mx-2(href='#!')
+                    //-             i.fab.fa-facebook-f
+                    //-         a.btn.btn-dark.btn-social.mx-2(href='#!')
+                    //-             i.fab.fa-linkedin-in
+                    .col-lg-12
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='')
+                            h4 Diana Petersen
+                            p.text-muted Lead Developer
+                            a.btn.btn-dark.btn-social.mx-2(href='#!')
+                                i.fab.fa-twitter
+                            a.btn.btn-dark.btn-social.mx-2(href='#!')
+                                i.fab.fa-facebook-f
+                            a.btn.btn-dark.btn-social.mx-2(href='#!')
+                                i.fab.fa-linkedin-in
+                .row
+                    .col-lg-8.mx-auto.text-center
+                        p.large.text-muted
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
         // Services
         section#services.page-section
             .container
@@ -205,51 +251,6 @@ html(lang='en')
         //-                         br
         //-                         | Story!
 
-        // Team
-        section#team.page-section.bg-light
-            .container
-                .text-center
-                    h2.section-heading.text-uppercase Our Amazing Team
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
-                .row
-                    .col-lg-4
-                        .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/1.jpg', alt='')
-                            h4 Kay Garland
-                            p.text-muted Lead Designer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
-                    .col-lg-4
-                        .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/2.jpg', alt='')
-                            h4 Larry Parker
-                            p.text-muted Lead Marketer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
-                    .col-lg-4
-                        .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='')
-                            h4 Diana Petersen
-                            p.text-muted Lead Developer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
-                .row
-                    .col-lg-8.mx-auto.text-center
-                        p.large.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
-
         // Clients
         div.py-5
             .container
@@ -298,7 +299,7 @@ html(lang='en')
             .container
                 .row.align-items-center
                     .col-lg-4.text-lg-left
-                        | Copyright © Your Website 2020
+                        | Copyright © MikeZlot.com
                     .col-lg-4.my-3.my-lg-0
                         a.btn.btn-dark.btn-social.mx-2(href='#!')
                             i.fab.fa-twitter
