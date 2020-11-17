@@ -35,12 +35,17 @@ html(lang='en')
                     i.fas.fa-bars.ml-1
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.text-uppercase.ml-auto
+
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#services') Services
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#team') About
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#portfolio') Portfolio
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='mailto:michael.zlotkowski@gmail.com') Email
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#!') 602-370-6110
         // Masthead
         header.masthead
             .container
@@ -86,7 +91,9 @@ html(lang='en')
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/3.png', alt='')
                             h4 Mike Zlotkowski
-                            p.text-muted Brand Consultant, Developer, Photographer
+                            p.text-muted Branding Consultant, Web Developer, Photographer
+                            a.btn.btn-dark.btn-social.mx-2(href='mailto:michael.zlotkowski@gmail.com')
+                                i.fas.fa-envelope
                             a.btn.btn-dark.btn-social.mx-2(href='https://www.tappy.tech/mikez')
                                 i.fas.fa-user-tie
                             a.btn.btn-dark.btn-social.mx-2(href='https://www.instagram.com/thesh_mikey/')
@@ -96,7 +103,7 @@ html(lang='en')
                 .row
                     .col-lg-8.mx-auto.text-center
                         p.large.text-muted
-                            | I appreciate you taking the time to get to know me. What I offer as a Freelancer and Entrepeneur, is that of a small marketing team built into one person that can help you grow your Brand, Web Presence, or Photos to document your life. I have been overwhelmed with gratitude by those who have come to me to help tell their stories, and I look forward to telling yours! Contact me to discuss your Vision today!
+                            | I appreciate you taking the time to get to know me. What I offer as a Freelancer and Entrepeneur, is that of a small marketing team built into one person that can help you grow your Brand, Web Presence, or Photo Game to document your life. I am overwhelmed with gratitude by those who have come to me to help tell their stories, and I look forward to telling yours! Contact me for a FREE Consultation!
         // Clients
         div.py-5
             .container
@@ -128,8 +135,8 @@ html(lang='en')
                                         i.fas.fa-external-link-alt.fa-6x
                                 img.img-fluid(src='assets/img/portfolio/01-thumbnail.jpg', alt='')
                             .portfolio-caption
-                                .portfolio-caption-heading Threads
-                                .portfolio-caption-subheading.text-muted Illustration
+                                .portfolio-caption-heading Web Creative
+                                .portfolio-caption-subheading.text-muted UI Focused Web Development
                     .col-lg-4.col-sm-6.mb-4
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal2')
@@ -138,8 +145,8 @@ html(lang='en')
                                         i.fas.fa-external-link-alt.fa-6x
                                 img.img-fluid(src='assets/img/portfolio/02-thumbnail.jpg', alt='')
                             .portfolio-caption
-                                .portfolio-caption-heading Explore
-                                .portfolio-caption-subheading.text-muted Graphic Design
+                                .portfolio-caption-heading Photo Minded
+                                .portfolio-caption-subheading.text-muted Personal and Authentic
                     .col-lg-4.col-sm-6.mb-4
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal3')
@@ -148,79 +155,84 @@ html(lang='en')
                                         i.fas.fa-external-link-alt.fa-6x
                                 img.img-fluid(src='assets/img/portfolio/03-thumbnail.jpg', alt='')
                             .portfolio-caption
-                                .portfolio-caption-heading Finish
-                                .portfolio-caption-subheading.text-muted Identity
-                    .col-lg-4.col-sm-6.mb-4.mb-lg-0
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal4')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-external-link-alt.fa-6x
-                                img.img-fluid(src='assets/img/portfolio/04-thumbnail.jpg', alt='')
-                            .portfolio-caption
-                                .portfolio-caption-heading Lines
-                                .portfolio-caption-subheading.text-muted Branding
-                    .col-lg-4.col-sm-6.mb-4.mb-sm-0
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal5')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-external-link-alt.fa-6x
-                                img.img-fluid(src='assets/img/portfolio/05-thumbnail.jpg', alt='')
-                            .portfolio-caption
-                                .portfolio-caption-heading Southwest
-                                .portfolio-caption-subheading.text-muted Website Design
-                    .col-lg-4.col-sm-6
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal6')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-external-link-alt.fa-6x
-                                img.img-fluid(src='assets/img/portfolio/06-thumbnail.jpg', alt='')
-                            .portfolio-caption
-                                .portfolio-caption-heading Window
-                                .portfolio-caption-subheading.text-muted Photography
-                    .col-lg-4.col-sm-6
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal7')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-external-link-alt.fa-6x
-                                img.img-fluid(src='assets/img/portfolio/06-thumbnail.jpg', alt='')
-                            .portfolio-caption
-                                .portfolio-caption-heading Window
-                                .portfolio-caption-subheading.text-muted Photography
-                    .col-lg-4.col-sm-6
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal8')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-external-link-alt.fa-6x
-                                img.img-fluid(src='assets/img/portfolio/06-thumbnail.jpg', alt='')
-                            .portfolio-caption
-                                .portfolio-caption-heading Window
-                                .portfolio-caption-subheading.text-muted Photography
-                    .col-lg-4.col-sm-6
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal9')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-external-link-alt.fa-6x
-                                img.img-fluid(src='assets/img/portfolio/06-thumbnail.jpg', alt='')
-                            .portfolio-caption
-                                .portfolio-caption-heading Window
-                                .portfolio-caption-subheading.text-muted Photography
+                                .portfolio-caption-heading Fit and Finish
+                                .portfolio-caption-subheading.text-muted Brand Identity and Working Components
+                    //- .col-lg-4.col-sm-6.mb-4.mb-lg-0
+                    //-     .portfolio-item
+                    //-         a.portfolio-link(data-toggle='modal', href='#portfolioModal4')
+                    //-             .portfolio-hover
+                    //-                 .portfolio-hover-content
+                    //-                     i.fas.fa-external-link-alt.fa-6x
+                    //-             img.img-fluid(src='assets/img/portfolio/04-thumbnail.jpg', alt='')
+                    //-         .portfolio-caption
+                    //-             .portfolio-caption-heading Lines
+                    //-             .portfolio-caption-subheading.text-muted Branding
+                    //- .col-lg-4.col-sm-6.mb-4.mb-sm-0
+                    //-     .portfolio-item
+                    //-         a.portfolio-link(data-toggle='modal', href='#portfolioModal5')
+                    //-             .portfolio-hover
+                    //-                 .portfolio-hover-content
+                    //-                     i.fas.fa-external-link-alt.fa-6x
+                    //-             img.img-fluid(src='assets/img/portfolio/05-thumbnail.jpg', alt='')
+                    //-         .portfolio-caption
+                    //-             .portfolio-caption-heading Southwest
+                    //-             .portfolio-caption-subheading.text-muted Website Design
+                    //- .col-lg-4.col-sm-6
+                    //-     .portfolio-item
+                    //-         a.portfolio-link(data-toggle='modal', href='#portfolioModal6')
+                    //-             .portfolio-hover
+                    //-                 .portfolio-hover-content
+                    //-                     i.fas.fa-external-link-alt.fa-6x
+                    //-             img.img-fluid(src='assets/img/portfolio/06-thumbnail.jpg', alt='')
+                    //-         .portfolio-caption
+                    //-             .portfolio-caption-heading Window
+                    //-             .portfolio-caption-subheading.text-muted Photography
+                    //- .col-lg-4.col-sm-6
+                    //-     .portfolio-item
+                    //-         a.portfolio-link(data-toggle='modal', href='#portfolioModal7')
+                    //-             .portfolio-hover
+                    //-                 .portfolio-hover-content
+                    //-                     i.fas.fa-external-link-alt.fa-6x
+                    //-             img.img-fluid(src='assets/img/portfolio/06-thumbnail.jpg', alt='')
+                    //-         .portfolio-caption
+                    //-             .portfolio-caption-heading Window
+                    //-             .portfolio-caption-subheading.text-muted Photography
+                    //- .col-lg-4.col-sm-6
+                    //-     .portfolio-item
+                    //-         a.portfolio-link(data-toggle='modal', href='#portfolioModal8')
+                    //-             .portfolio-hover
+                    //-                 .portfolio-hover-content
+                    //-                     i.fas.fa-external-link-alt.fa-6x
+                    //-             img.img-fluid(src='assets/img/portfolio/06-thumbnail.jpg', alt='')
+                    //-         .portfolio-caption
+                    //-             .portfolio-caption-heading Window
+                    //-             .portfolio-caption-subheading.text-muted Photography
+                    //- .col-lg-4.col-sm-6
+                    //-     .portfolio-item
+                    //-         a.portfolio-link(data-toggle='modal', href='#portfolioModal9')
+                    //-             .portfolio-hover
+                    //-                 .portfolio-hover-content
+                    //-                     i.fas.fa-external-link-alt.fa-6x
+                    //-             img.img-fluid(src='assets/img/portfolio/06-thumbnail.jpg', alt='')
+                    //-         .portfolio-caption
+                    //-             .portfolio-caption-heading Window
+                    //-             .portfolio-caption-subheading.text-muted Photography
         // Footer
         footer.footer.py-4.bg-dark
             .container
                 .row.align-items-center
                     .col-lg-12.my-3.my-lg-0
+                        a.btn.btn-light.btn-social.mx-2(href='mailto:michael.zlotkowski@gmail.com')
+                            i.fas.fa-envelope
                         a.btn.btn-light.btn-social.mx-2(href='https://www.tappy.tech/mikez')
                             i.fas.fa-user-tie
                         a.btn.btn-light.btn-social.mx-2(href='https://www.instagram.com/thesh_mikey/')
                             i.fab.fa-instagram
                         a.btn.btn-light.btn-social.mx-2(href='https://github.com/MikeyZ89')
                             i.fab.fa-github
+                .row.align-items-center.padding-top-20px
+                    .col-lg-12.my-3.my-lg-0
+                        p.text-white Copyright © MZ
         // Portfolio Modals
         // Modal 1
         #portfolioModal1.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
